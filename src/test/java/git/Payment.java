@@ -2,8 +2,8 @@ package git;
 
 public interface Payment {
 
-  public void payment1(String money){
-    System.out.printl("Money");
+  public default void payment1(String money1){
+    System.out.println("Money");
   }
 }
 
